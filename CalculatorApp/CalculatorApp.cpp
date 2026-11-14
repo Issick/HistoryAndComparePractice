@@ -11,11 +11,17 @@ int Subtract(int num1, int num2)
     return num1 - num2;
 }
 
+int Multiply(int num1, int num2)
+{
+    return num1 * num2;
+}
+
 
 int main()
 {
     cout << Add(10, 5) << endl;
     cout << "Subtraction: " << Subtract(10, 5) << endl;
+    cout << "Multiplication: " << Multiply(10, 5) << endl;
 
     return 0;
 }
