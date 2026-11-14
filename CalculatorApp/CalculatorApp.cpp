@@ -27,6 +27,11 @@ double Divide(double num1, double num2)
     return num1 / num2;
 }
 
+void Somthing()
+{
+    cout << "Something!" << endl;
+}
+
 
 int main()
 {
@@ -34,6 +39,7 @@ int main()
     cout << "Subtraction: " << Subtract(10, 5) << endl;
     cout << "Multiplication: " << Multiply(10, 5) << endl;
     cout << "Division: " << Divide(10, 5) << endl;
+    Somthing();
 
     return 0;
 }
