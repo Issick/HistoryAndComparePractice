@@ -41,6 +41,7 @@ int main()
     cout << "Division: " << Divide(10, 5) << endl;
     Somthing();
     cout << "This is an out commit" << endl;
+    cout << "This is an forgoten commit" << endl;
 
     return 0;
 }
